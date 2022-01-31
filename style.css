@@ -1,0 +1,19 @@
+a[href*="google"]{
+    color:rgb(23, 146, 23);
+}
+a[href^="https://www.link-group"]{
+    color: rgb(255, 0, 0);
+}
+#second-div p:nth-child(even){
+    color: rgb(255, 0, 0);
+}
+#second-div p:nth-child(odd){
+    color: rgb(0, 0, 255);
+}
+#first-div > p::after{
+    content: "NEW";
+    color: rgb(255, 255, 0);
+}
+body>p:nth-last-of-type(1):hover{
+    font-style: italic;
+}
